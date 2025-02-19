@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Aerial', 'sans-serif';
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-dark {
+    color: #616161;
+}
+
+/* navbar starts here */
+.navbar {
+    background-color: #FBFAFF;
+    justify-content: space-between;
+}
+
+.list-link {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: black;
+    padding: 35px 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.list-link:hover {
+    background: linear-gradient(rgba(159, 84, 230, 0.9), rgba(30, 130, 224, 0.9));
+    color: white;
+}
+.active{
+    background: linear-gradient(rgba(159, 84, 230, 0.9), rgba(30, 130, 224, 0.9));
+    color: white;
+}
+
+/* navbar ends here */
+/* homepage starts here */
+/* .homepage{
+    max-height: 100vh;
+} */
+.banner-cards {
+    color: white;
+    width: 25%;
+    margin-top: -10%;
+}
+
+.cards-content {
+    padding: 30px;
+    position: relative;
+}
+
+.cards-content p {
+    font-size: 1.3rem;
+}
+
+.right-arrow {
+    position: absolute;
+    right: 15px;
+    bottom: 50px;
+}
+
+.card1 {
+    background: linear-gradient(rgba(255, 180, 83, 0.9), rgb(255, 155, 4));
+}
+
+.card2 {
+    background: linear-gradient(rgba(159, 84, 230, 0.9), rgba(30, 130, 224, 0.9));
+}
+
+.card3 {
+    background: linear-gradient(rgba(231, 3, 72, 0.9), rgb(245, 76, 146));
+}
+
+.card4 {
+    background: linear-gradient(rgba(255, 83, 241, 0.9), rgb(240, 0, 200));
+}
+
+/* homepage ends here */
+
+/* about us page starts here */
+#About-us {
+    padding: 3rem 0;
+}
+
+.content-part {
+    background-color: #f7f7f7;
+    padding: 46px;
+}
+
+.content-part p {
+    padding-bottom: 2rem;
+    color: #616161;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.img-part {}
+
+.button1 {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    background: linear-gradient(rgba(238, 82, 34, 0.9), rgb(240, 0, 100));
+    padding: 20px 40px;
+    letter-spacing: 0.2rem;
+}
+
+/* about us page ends here */
+
+/* gallery page starts here */
+#gallery {
+    position: relative;
+    background: url('images/swimming-bg1.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.facility {
+    background: linear-gradient(rgba(240, 17, 36, 0.9), rgba(255, 69, 140, 0.9));
+    color: white;
+    max-width: 567px;
+}
+
+.facility-content {
+    padding: 40px;
+}
+
+.white-bg {
+    background: white;
+    color: black;
+}
+
+/* gallery page ends here */
+/* events page starts here */
+#event {
+    padding: 3rem 0;
+}
+
+.event-content {
+    background: linear-gradient(rgb(253, 154, 40), rgb(252, 86, 35));
+    color: white;
+    padding: 46px;
+}
+
+.event-content p {
+    font-size: 1.5rem;
+}
+
+.event-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+.event-content ul li{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.event-content ul li::before {
+    content: "➤";
+    margin-right: 10px;
+    font-size: 12px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 1;
+}
+
+svg {
+    height: 20px;
+    width: 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+/* events page ends here */
+/* review page starts here */
+#review {
+    padding-top: 5.5rem;
+}
+
+.review-cards {
+    position: relative;
+    padding-top: 25px;
+}
+
+.review-cards::before {
+    content: "";
+    position: absolute;
+    top: -19%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 155px;
+    width: 155px;
+    border-radius: 60%;
+    background-size: cover;
+}
+
+.review-cards:nth-child(1)::before {
+    background-image: url("images/people-round-img1.jpg");
+}
+
+.review-cards:nth-child(2)::before {
+    background-image: url("images/people-round-img2.jpg");
+}
+
+.review-cards:nth-child(3)::before {
+    background-image: url("images/people-round-img3.jpg");
+}
+
+.review-cards:nth-child(4)::before {
+    background-image: url("images/people-round-img4.jpg");
+}
+
+.review-cards {
+    background-color: #f7f7f7;
+    padding: 25px 20px 0px 20px;
+}
+
+.review-cards p {
+    font-size: 1.5rem;
+    padding-top: 5rem;
+    color: #616161;
+}
+
+.review-content .user-info {
+    padding-top: 0;
+    font-size: 2rem;
+    color: #f34b09;
+}
+
+/* review page ends here */
+/* contact page starts here */
+.contact-part {
+    background: linear-gradient(rgb(40, 125, 253), rgb(6, 95, 212));
+    padding: 46px;
+    color: white;
+}
+
+.contact-part h2 {
+    font-size: 3rem;
+}
+
+.contact-part p {
+    font-size: 1.5rem;
+}
+
+.num {
+    font-size: 3rem;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 0px 20px;
+    margin-left: 11px;
+}
+
+.map-part {
+    height: 500px;
+    width: 567px;
+}
+
+/* contact page ends here */
+/* footer starts here */
+footer p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #616161;
+    padding: 20px 0;
+}
+
+/* footer ends here */
