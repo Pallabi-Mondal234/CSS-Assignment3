@@ -41,11 +41,11 @@ h2 {
 }
 
 .list-link:hover {
-    background: linear-gradient(rgba(159, 84, 230, 0.9), rgba(30, 130, 224, 0.9));
+    background: linear-gradient(rgba(162, 93, 248, 1), rgba(38, 94, 215, 1));
     color: white;
 }
 .active{
-    background: linear-gradient(rgba(159, 84, 230, 0.9), rgba(30, 130, 224, 0.9));
+    background: linear-gradient(rgba(162, 93, 248, 1), rgba(38, 94, 215, 1));
     color: white;
 }
 
@@ -76,19 +76,19 @@ h2 {
 }
 
 .card1 {
-    background: linear-gradient(rgba(255, 180, 83, 0.9), rgb(255, 155, 4));
+    background: linear-gradient(rgba(255, 173, 3, 1), rgb(255, 137, 19,1));
 }
 
 .card2 {
-    background: linear-gradient(rgba(159, 84, 230, 0.9), rgba(30, 130, 224, 0.9));
+    background: linear-gradient(rgba(179, 91, 253, 1), rgba(64, 93, 221, 1));
 }
 
 .card3 {
-    background: linear-gradient(rgba(231, 3, 72, 0.9), rgb(245, 76, 146));
+    background: linear-gradient(rgba(255, 44, 95, 1), rgb(255, 28, 149,1));
 }
 
 .card4 {
-    background: linear-gradient(rgba(255, 83, 241, 0.9), rgb(240, 0, 200));
+    background: linear-gradient(rgba(251, 21, 231, 1), rgb(201, 29,227, 200));
 }
 
 /* homepage ends here */
@@ -116,7 +116,7 @@ h2 {
     text-decoration: none;
     list-style: none;
     color: white;
-    background: linear-gradient(rgba(238, 82, 34, 0.9), rgb(240, 0, 100));
+    background: linear-gradient(rgba(255, 134, 4, 1), rgb(255, 57,74, 1));
     padding: 20px 40px;
     letter-spacing: 0.2rem;
 }
@@ -126,12 +126,12 @@ h2 {
 /* gallery page starts here */
 #gallery {
     position: relative;
-    background: url('images/swimming-bg1.jpg') no-repeat center;
+    background: url('../images/swimming-bg1.jpg') no-repeat center;
     background-size: cover;
 }
 
 .facility {
-    background: linear-gradient(rgba(240, 17, 36, 0.9), rgba(255, 69, 140, 0.9));
+    background: linear-gradient(rgba(231, 48, 78, 1), rgba(223, 19, 130, 1));
     color: white;
     max-width: 567px;
 }
@@ -152,7 +152,7 @@ h2 {
 }
 
 .event-content {
-    background: linear-gradient(rgb(253, 154, 40), rgb(252, 86, 35));
+    background: linear-gradient(rgb(255, 186, 23,1), rgb(255, 130, 2,1));
     color: white;
     padding: 46px;
 }
@@ -186,7 +186,10 @@ svg {
     border: 1px solid white;
     border-radius: 25px;
 }
-
+.event-img img{
+    height: 100%;
+    width: 100%;
+}
 /* events page ends here */
 /* review page starts here */
 #review {
@@ -211,19 +214,19 @@ svg {
 }
 
 .review-cards:nth-child(1)::before {
-    background-image: url("images/people-round-img1.jpg");
+    background-image: url("../images/people-round-img1.jpg");
 }
 
 .review-cards:nth-child(2)::before {
-    background-image: url("images/people-round-img2.jpg");
+    background-image: url("../images/people-round-img2.jpg");
 }
 
 .review-cards:nth-child(3)::before {
-    background-image: url("images/people-round-img3.jpg");
+    background-image: url("../images/people-round-img3.jpg");
 }
 
 .review-cards:nth-child(4)::before {
-    background-image: url("images/people-round-img4.jpg");
+    background-image: url("../images/people-round-img4.jpg");
 }
 
 .review-cards {
